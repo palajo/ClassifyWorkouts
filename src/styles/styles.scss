@@ -1,0 +1,15 @@
+section {
+  display: none;
+
+  &.active-exercise {
+    display: block;
+
+    &>div {
+      display: none;
+
+      &.active-set {
+        display: block;
+      }
+    }
+  }
+}
